@@ -26,4 +26,4 @@ class ResearchPaper(BaseModel):
         ge=0
     )
 
-    published_date: datetime
+    published_date: datetime | None = None
