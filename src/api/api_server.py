@@ -9,12 +9,20 @@ from fastapi.middleware.cors import CORSMiddleware
 # Configuration
 # =========================================================
 
-DATASET_FILE = Path(
-    "data/processed/recommended_research_papers.json"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+DATASET_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "recommended_research_papers.json"
 )
 
-SIMILARITY_FILE = Path(
-    "data/processed/similarity_index.json"
+SIMILARITY_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "similarity_index.json"
 )
 
 
