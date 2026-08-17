@@ -344,7 +344,7 @@ def calculate_recommendation_score(
 
     intelligence_score = normalize_score(
         paper.get(
-            "intelligence_score",
+            "research_intelligence_score",
             0
         ),
         100
