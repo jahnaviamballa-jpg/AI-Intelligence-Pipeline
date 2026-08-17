@@ -101,6 +101,4 @@ def run_ingestion(
 
         all_records.extend(records)
 
-        
-
     return all_records
