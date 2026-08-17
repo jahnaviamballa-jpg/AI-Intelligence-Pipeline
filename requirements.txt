@@ -9,3 +9,5 @@ python-dotenv==1.2.2
 scikit-learn==1.9.0
 uvicorn==0.52.3
 certifi
+beautifulsoup4
+lxml
